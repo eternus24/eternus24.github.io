@@ -32,6 +32,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: List dist (배포될 파일 확인)
+        run: ls -la dist && ls -la dist/assets 2>/dev/null || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
