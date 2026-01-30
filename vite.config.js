@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // GitHub Pages: 저장소 이름이 다르면 아래 값을 변경하세요 (예: '/my-portfolio/')
-  base: '/eternus24/',
+  // eternus24.github.io 는 루트(/)에서 서비스되므로 base: '/'
+  base: '/',
 })
