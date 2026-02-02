@@ -59,7 +59,7 @@ const projects = [
     },
   },
   {
-    title: "SmartBudget",
+    title: "SmartBudget(현재 진행중)",
     desc: "AI 기반 자산관리 및 지출 분석 서비스",
     detail:
       "Python LLM과 LangChain 기반 RAG 구조로 소비 패턴을 분석하고 인사이트 제공",
