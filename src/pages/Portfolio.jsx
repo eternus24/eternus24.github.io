@@ -59,14 +59,14 @@ const projects = [
     },
   },
   {
-    title: "SmartBudget(현재 진행중)",
+    title: "SmartBudget",
     desc: "AI 기반 자산관리 및 지출 분석 서비스",
     detail:
       "Python LLM과 LangChain 기반 RAG 구조로 소비 패턴을 분석하고 인사이트 제공",
     img: null,
     tags: ["LLM", "RAG", "Python", "AI 분석"],
     github: "https://github.com/choyhns/smartbudget.git",
-    notion: "#",
+    notion: "https://www.notion.so/AI-SmartBudget-3068cb7206c080138dddca516b4ee75d?source=copy_link",
     featured: true,
   },
 ];
